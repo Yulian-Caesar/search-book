@@ -112,11 +112,20 @@
       font-size: 36px;
     }
     &-result {
+      &__img {
+        margin: 0 auto 20px auto;
+      }
       &__item {
         padding: 10px;
       }
-      &__img {
-        margin: 0 auto 20px auto;
+      &__title {
+        font-size: 22px;
+      }
+      &__authors {
+        font-size: 18px;
+      }
+      &__text {
+        font-size: 16px;
       }
     }
   }

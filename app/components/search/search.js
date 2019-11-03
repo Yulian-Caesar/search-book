@@ -5,9 +5,9 @@ let searchInput = document.querySelector(".search__input");
 
 searchInput.addEventListener('keyup', () => {
     clearTimeout(timer);
-if (searchInput.value) {
-    timer = setTimeout(checkResult, timerDelay);
-};
+    if (searchInput.value) {
+        timer = setTimeout(checkResult, timerDelay);
+    };
 });
 
 function checkResult() {
